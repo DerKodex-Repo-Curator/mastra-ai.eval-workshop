@@ -11,8 +11,6 @@ This project demonstrates how to build and use different types of scorers to eva
 ### 🤖 AI Agents
 
 - **News Agent**: A comprehensive agent that can fetch top headlines and articles, with built-in scorers for evaluation
-- **Headline Agent**: Specialized agent for headline-related tasks
-- **Article Agent**: Specialized agent for article fetching and processing
 
 ### 🛠️ Tools
 
@@ -37,20 +35,6 @@ An intelligent scorer that uses an LLM to detect when the agent makes claims not
 - Compares each statement against the context from tool results
 - Uses GPT-4o to determine if statements are supported by the context
 - Returns a score based on the ratio of supported vs. unsupported statements
-
-## Project Structure
-
-```
-src/mastra/
-├── agents/           # AI agent definitions
-├── scorers/          # Evaluation scorers
-│   ├── source-citation-scorer.ts
-│   └── tool-hallucination-scorer.ts
-├── tools/            # Available tools for agents
-│   └── fetch-article.ts
-├── workflows/        # Workflow definitions
-└── index.ts         # Main Mastra configuration
-```
 
 ## Getting Started
 
