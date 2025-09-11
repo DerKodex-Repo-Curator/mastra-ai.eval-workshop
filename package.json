@@ -1,0 +1,40 @@
+{
+  "name": "examples-eval-workshop",
+  "type": "module",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "version": "0.0.1",
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.24",
+    "@mastra/braintrust": "latest",
+    "@mastra/client-js": "latest",
+    "@mastra/core": "latest",
+    "@mastra/evals": "latest",
+    "@mastra/langfuse": "latest",
+    "@mastra/libsql": "latest",
+    "@mastra/loggers": "latest",
+    "@mastra/memory": "latest",
+    "@mozilla/readability": "latest",
+    "ai": "^4.3.19",
+    "dotenv": "^17.2.2",
+    "jsdom": "latest",
+    "mastra": "latest",
+    "newsapi": "^2.4.1",
+    "ts-newsapi": "latest",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/jsdom": "latest"
+  },
+  "scripts": {
+    "build": "mastra build",
+    "dev": "mastra dev",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
